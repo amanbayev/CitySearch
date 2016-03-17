@@ -24,7 +24,7 @@ import kz.growit.citysearch.Utils.VolleySingleton;
 
 public class SplashScreenActivity extends AppCompatActivity {
     private boolean catsDone = false, subcatsDone = false;
-    private static final String PREFS_NAME = "CitySearch";
+    public static final String PREFS_NAME = "CitySearch";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
